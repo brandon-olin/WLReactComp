@@ -3,7 +3,7 @@ import Logo from '../images/Logo.png'
 
 const Navbar = () => {
   return (
-    <header>
+    <header id="HomePageHeader">
       <div className="Links">
         <a href="/">STORE</a>
         <a href="/">TUTORIALS</a>
