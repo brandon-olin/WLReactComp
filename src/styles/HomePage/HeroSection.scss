@@ -1,0 +1,33 @@
+.HeroSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 0 50px 0;
+}
+
+.HeroSection h1 {
+  color: white;
+  font-size: 144px;
+  margin: 0;
+  letter-spacing: 10px;
+}
+
+.HeroSection h4 {
+  color: #dbd7d3;
+  margin: 0;
+}
+
+.HeroSection p {
+  color: #dbd7d3;
+  margin: 5px 0;
+}
+
+#HeroImage {
+  width: 30%;
+}
+
+#HeroImageShadow {
+  width: 24%;
+  object-position: 0 -3px;
+}
