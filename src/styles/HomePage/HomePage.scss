@@ -1,0 +1,42 @@
+.HomePage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f1ed;
+  min-height: 100vh;
+}
+
+#HomePageHeader {
+  height: 30px;
+  padding: 30px 75px;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+.HeaderLinks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HomePageHeaderLinks {
+  text-decoration: none;
+  font-family: 'Roboto';
+  color: #31211b;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.HomePageHeaderLinks:hover {
+  text-decoration: underline;
+}
+
+.CenterLogo {
+  display: flex;
+  justify-content: center;
+}
+
+#NavBarLogo {
+  width: 18vw;
+}
