@@ -6,10 +6,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### Project Notes
 
 I built this project using a few packages, including:
-*Material UI: for quick component building and styling, as well as different icons used throughout the app
-*node-sass: to use SCSS in the project to keep my stylesheets a bit more organized
-*react-router-dom: for basic routing/navigation
-*validator: to check validity of emails from user input
+* Material UI: for quick component building and styling, as well as different icons used throughout the app
+* node-sass: to use SCSS in the project to keep my stylesheets a bit more organized
+* react-router-dom: for basic routing/navigation
+* validator: to check validity of emails from user input
 
 I decided to attempt to replicate the comp as closely as possible, with a few changes to the contact form style based on the form input components available in Material UI.
 
