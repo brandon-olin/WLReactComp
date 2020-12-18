@@ -11,7 +11,7 @@ I built this project using a few packages, including:
 * react-router-dom: for basic routing/navigation
 * validator: to check validity of emails from user input
 
-I decided to attempt to replicate the comp as closely as possible, with a few changes to the contact form style based on the form input components available in Material UI.
+I decided to attempt to replicate the comp as closely as possible, with a few changes to the contact form style based on the components available in Material UI.
 
 I also changed some things stylistically and made the drone hero image on the home page fit within the bounds of a mobile screen, which it didn't in the comp. I thought it looked a bit nicer this way, but in a production scenario I'd be willing to adjust things based on input from the client or UX designer.
 
