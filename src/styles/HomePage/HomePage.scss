@@ -1,5 +1,5 @@
 .HomePage {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   background-color: #f4f1ed;
@@ -11,6 +11,12 @@
   padding: 30px 75px;
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
+}
+
+@media screen and (max-width: 768px) {
+  #HomePageHeader {
+    display: none;
+  }
 }
 
 .HeaderLinks {

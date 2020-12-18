@@ -31,3 +31,35 @@
   width: 24%;
   object-position: 0 -3px;
 }
+
+@media screen and (max-width: 768px) {
+  #HeroImage {
+    width: 65%;
+  }
+  #HeroImageShadow {
+    width: 54%;
+    object-position: 0 -4px;
+  }
+  .HeroSection h4 {
+    font-size: 18px;
+  }  
+  .HeroSection p {
+    font-size: 14px;
+  }  
+}
+
+@media screen and (max-width: 480px) {
+  #HeroImage {
+    width: 90%;
+  }
+  #HeroImageShadow {
+    width: 75%;
+    object-position: 0 -4px;
+  }
+  .HeroSection h1 {
+    font-size: 96px;
+  }
+  .HeroSection h4 {
+    font-size: 16px;
+  }  
+}
