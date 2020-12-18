@@ -1,0 +1,29 @@
+#MobileHeader {
+  height: 30px;
+  padding: 30px 50px;
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+}
+
+#MobileNavBarLogo {
+  width: 18vw;
+  padding-top: 6px;
+}
+
+@media screen and (min-width: 769px) {
+  #MobileHeader {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #MobileNavBarLogo {
+    width: 30vw
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #MobileNavBarLogo {
+    width: 40vw
+  }
+}
